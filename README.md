@@ -1,4 +1,4 @@
-﻿# 🖼️ Batch Image Resizer (OpenCV + Tkinter)
+# 🖼️ Batch Image Resizer (OpenCV + Tkinter)
 
 A modern desktop application for batch image resizing built with Python. It features a clean dark-themed Tkinter interface and uses OpenCV for fast image processing.
 
@@ -123,7 +123,12 @@ Despite AI assistance, the final implementation, integration, and decision-makin
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
+
+### Third-Party Licenses
+
+- **OpenCV (`cv2`)**: The core OpenCV library is licensed under the **Apache License 2.0**. The `opencv-python` wrapper is licensed under the **MIT License**. Pre-built wheels may include third-party dependencies (like FFmpeg) licensed under the **LGPL**. Because this application dynamically links to OpenCV via Python imports, the project's MIT License is fully compatible.
+- **Python Standard Library (Tkinter, OS, Glob, Threading)**: Licensed under the **Python Software Foundation License (PSFL)**.
 
 ## 💡 Developer Notes
 
